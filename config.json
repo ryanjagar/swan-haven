@@ -1,6 +1,6 @@
 {
   "headers":
     {
-      "X-eBirdApiToken": "${{ secrets.APIKEY }}"
+      "X-eBirdApiToken": ${{ secrets.APIKEY }}
     }
 }
