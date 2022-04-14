@@ -20,4 +20,5 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://api.ebird.org/v2/data/obs/L767519/recent
+          axios_config: config.json
           downloaded_filename: swanHaven.json
